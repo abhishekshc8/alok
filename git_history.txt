@@ -1,0 +1,155 @@
+    1  apt update
+    2  clear
+    3  apt install apache2
+    4  clear
+    5  cd /var/www/html
+    6  echo "Hi Abhishek" >index.html
+    7  apt install git
+    8  clear
+    9  mkdir abhi
+   10  cd abhi
+   11  git init
+   12  clear
+   13  vim file1
+   14  git init
+   15  git add file1
+   16  git commit -m "first commit"
+   17  git branch -M main
+   18  git remote add origin https://github.com/abhishekshc8/test.git
+   19  git push -u origin main
+   20  clear
+   21  https://github.com/user/repo.git
+   22  https://github.com/abhishekshc8/test.git
+   23  git@github.com:abhishekshc8/test.git
+   24  git remote add origin https://github.com/abhishekshc8/test.git
+   25  git remote set-url https://github.com/abhishekshc8/test.git
+   26  git remote set-url --push  https://github.com/abhishekshc8/test.git
+   27  git remote add origin https://github.com/abhishekshc8/test.git
+   28  git remote -v
+   29  git push origin main
+   30  git push origin master
+   31  clear
+   32  git status
+   33  vim file2
+   34  git status
+   35  git add file2
+   36  git status
+   37  git commit -m "2nd commit"
+   38  git push origin master
+   39  git push origin main
+   40  history
+   41  history > history_1st_git.txt
+   42  ls
+   43  git remote add origin git@github.com:abhishekshc8/test.git
+   44  git remote -v
+   45  git push origin main
+   46  git push -u origin main
+   47  cd
+   48  mkdir abhi
+   49  cd abhi
+   50  ls
+   51  ls -a
+   52  git init
+   53  ls
+   54  clear
+   55  echo "# test" >> README.md
+   56  git init
+   57  git add README.md
+   58  git commit -m "first commit"
+   59  git branch -M main
+   60  git remote add origin git@github.com:abhishekshc8/test.git
+   61  git push -u origin main
+   62  git config --global --edit
+   63  clear
+   64  cd
+   65  mkdir alka
+   66  dir alka
+   67  cd alka
+   68  clear
+   69  git clone https://github.com/abhishekshc8/test.git
+   70  ls
+   71  cd test
+   72  vim mummy
+   73  ls
+   74  git status
+   75  git add mummy
+   76  git status
+   77  clear
+   78  git commit -m "2nd commit"
+   79  git push origin main
+   80  git config --global user.name "abhishekshc8"
+   81  git config --global user.email "abhishekshc8@gmail.com"
+   82  git config -l
+   83  git push origin main
+   84  clear
+   85  history > history_2nd.txt
+   86  history
+   87  clear
+   88  git config --local --unset credential.helper
+   89  git config --global --unset credential.helper
+   90  gut pull
+   91  git pull
+   92  git push origin main
+   93  git pull https://github.com/abhishekshc8/test.git
+   94  git pull
+   95  ls
+   96  vim file1
+   97  git pull main https://github.com/abhishekshc8/test.git
+   98  git pull https://github.com/abhishekshc8/test.git
+   99  git config
+  100  clear
+  101  git push origin main
+  102  git status
+  103  git add .
+  104  git commit -m "3rd commit"
+  105  git status
+  106  git pull
+  107  clear
+  108  git push origin main
+  109  git pull
+  110  ls
+  111  cd alka
+  112  ls
+  113  cd test
+  114  git status
+  115  clear
+  116  git status
+  117  git fetch
+  118  git status
+  119  git brach main
+  120  git branch main
+  121  git status
+  122  git pull main
+  123  clear
+  124  git status
+  125  git pull https://github.com/abhishekshc8/test.git
+  126  git config pull.rebase false
+  127  git config pull.rebase true
+  128  git config pull.ff only
+  129  git status
+  130  cd
+  131  clear
+  132  cd
+  133  mkdir shc
+  134  cd shc
+  135  vim alok1
+  136  git add alok1
+  137  git init
+  138  git status
+  139  clear
+  140  git add alok1
+  141  clear
+  142  git status
+  143  git commit -m "1st commit"
+  144  git status
+  145  git push origin main
+  146  git push origin
+  147  git push --set-upstream origin master
+  148  clear
+  149  git remote add origin https://github.com/abhishekshc8/alok.git
+  150  git branch -M main
+  151  git push -u origin main
+  152  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
+  153  git push -u origin main
+  154  ls
+  155  history > git_history.txt
